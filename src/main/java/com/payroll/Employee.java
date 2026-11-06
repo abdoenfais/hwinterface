@@ -1,3 +1,7 @@
+package com.payroll;
+
+import com.payroll.Taxable;
+import com.payroll.BonusCalculable;
 import java.time.LocalDate;
 
 public abstract class Employee implements Comparable<Employee>, Taxable, BonusCalculable {

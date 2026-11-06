@@ -1,3 +1,6 @@
+package com.payroll;
+
+import com.payroll.Employee;
 import java.time.LocalDate;
 
 public class ContractorEmployee extends Employee {
